@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="en">
+    <body>
+        <script>
+             var totalBeforeTaxCents = 2095 * 2 + 799 * 2 + 499 * 2;
+                var tax = Math.round(totalBeforeTaxCents * 0.1) / 100;
+                var line4 = `Estimated tax (10%): $${tax}`;
+                document.body.innerHTML = line4;
+        </script>
+    </body>
+</html>
